@@ -1,0 +1,16 @@
+.list-item {
+	padding: $m-size $l-size;
+	box-shadow: 0 4px 2px -2px lighten($text-color, 50%);
+}
+
+.list-item-name {
+	font-size: $l-size;
+	font-weight: bold;
+	margin-bottom: $m-size;
+}
+
+.list-item-details {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
