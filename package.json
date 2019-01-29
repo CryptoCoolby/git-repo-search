@@ -43,5 +43,8 @@
   "bugs": {
     "url": "https://github.com/CryptoCoolby/git-repo-search/issues"
   },
-  "description": ""
+  "description": "",
+  "engines": {
+    "node": "8.x"
+  }
 }
