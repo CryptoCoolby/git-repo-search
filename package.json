@@ -32,8 +32,9 @@
   },
   "scripts": {
     "start": "node server/server.js",
-    "heroku-postbuild": "node run build",
     "build": "webpack",
+    "heroku-postbuild": "yarn run build:prod",
+    "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server"
   },
   "repository": {
