@@ -6,6 +6,7 @@
   "author": "Dániel Ruthner",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.16.4",
     "gh-pages": "^2.0.1",
     "normalize.css": "8.0.0",
     "react": "^16.6.0",
