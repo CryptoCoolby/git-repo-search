@@ -33,7 +33,7 @@
   "scripts": {
     "start": "node server/server.js",
     "build": "webpack",
-    "heroku-postbuild": "yarn run build:prod",
+    "heroku-postbuild": "npm run build:prod",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server"
   },
