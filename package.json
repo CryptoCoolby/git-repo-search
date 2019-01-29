@@ -1,10 +1,12 @@
 {
+  "homepage": "https://github.com/CryptoCoolby/git-repo-search",
   "name": "app",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "./server/server.js",
   "author": "Dániel Ruthner",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "normalize.css": "8.0.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
@@ -29,8 +31,10 @@
     "webpack-cli": "^3.1.2"
   },
   "scripts": {
+    "start": "node server/server.js",
+    "heroku-postbuild": "node run build",
     "build": "webpack",
-    "devServer": "webpack-dev-server"
+    "dev-server": "webpack-dev-server"
   },
   "description": ""
 }
